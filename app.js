@@ -2,8 +2,8 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv=document.querySelector("#outputbox");
 
-// var serverURL = "https://api.funtranslations.com/translate/minion.json"
-var serverURL ="https://api.funtranslations.com/translate/ferb-latin.json"
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
+// var serverURL ="https://api.funtranslations.com/translate/ferb-latin.json"
 
 function getTranslationURL(text){
     return serverURL + "?" + "text=" + text
