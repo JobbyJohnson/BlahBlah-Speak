@@ -84,7 +84,23 @@ textarea{
 }
 
 .output-text{
-    margin: 50px 0px 20px 50px;
-    font-weight: 600;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 900;
     font-size: 20px;
+}
+#outputbox{
+    border: 1px solid var(--light-grey);
+    border-radius: 12px;
+    height: 100px;
+    width: 80%;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
