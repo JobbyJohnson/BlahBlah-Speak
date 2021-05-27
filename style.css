@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #3B82F6;
-    --dark-gray: #4B5563;
+    --light-grey: #D1D5DB;
     --off-white: #e9e8e8;
 }
 
@@ -18,12 +18,15 @@ body {
 
 
 
-#navbar {
-    background-color: var(--primary-color);
-    padding: 10px 10px 10px 60px;
-    
+.navbar {
+    border-bottom: 2px solid var(--light-grey);
+    padding: 10px;   
+
+}
+.navbar .logo{
     font-weight: 600;
     font-size: 32px;
+    margin: 20px 15rem ;
 }
 
 .container{
@@ -37,13 +40,15 @@ body {
 }
 .container .main-heading{
     padding:100px 70px  ;
+    margin: 0rem 0rem 0rem 125px;
+    font-size: 75px;
 }
 .container .inputbox{
     border: 2px solid grey;
     padding:1rem;
     border-radius: 12px;
-    margin-right:.1%;
-    width: 50%;
+    margin-right:10%;
+    width: 30%;
     
 
 }
@@ -53,22 +58,33 @@ body {
     padding: 2rem;
 }
 textarea{
-    width: 100%;
-    padding:2rem 0rem 5rem 0rem;
+    width: 80%;
+    padding:1rem 1rem 5rem 1rem;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 .container #btn-translate{
-    background-color: var(--primary-color);
-    border:0;
+    
+    border: 2px solid var(--light-grey);
     border-radius: 100px;
-    padding: 20px 50px ;
+    padding: 10px 30px ;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 10px;
+    
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 20px;
+    background: none;
     
+}
+
+.output-text{
+    margin: 50px 0px 20px 50px;
+    font-weight: 600;
+    font-size: 20px;
 }
