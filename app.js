@@ -31,4 +31,3 @@ function clickHandler(){
 btnTranslate.addEventListener("click", clickHandler)
 
 
-// https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json
